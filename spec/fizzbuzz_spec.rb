@@ -1,5 +1,11 @@
 require_relative './spec_helper.rb'
+#Got this error:
+#Your code looks the same as the lesson's. Please make changes and then try submitting again.
+#Couldn't figure out what I was supposed to change in this file
+#It said to add the following line:
 require_relative './../fizzbuzz.rb'
+#But it was already here
+#So I added ./ as a workaround
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
